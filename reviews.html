@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <meta name="description" content="화곡 셔츠룸 추천! 실제 방문 후기와 생생한 경험담을 확인하세요. 깔끔한 공간, 친절한 매니저님들, 합리적인 가격까지 모두 만족한 후기 모음입니다.">
+    <meta name="keywords" content="화곡 셔츠룸 후기, 화곡 셔츠룸 추천 후기, 화곡역 셔츠룸 후기, 강서구 셔츠룸 후기, 셔츠룸 방문 후기">
+    <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/reviews">
+    <meta property="og:title" content="화곡 셔츠룸 추천 | 실제 방문 후기 모음">
+    <meta property="og:description" content="화곡 셔츠룸 추천! 깔끔한 공간과 센스 있는 매니저님들, 합리적인 가격까지. 실제로 다녀온 손님들의 생생한 후기를 확인하세요.">
+    <meta property="og:url" content="https://dydrkrtks7-cmd.github.io/reviews">
+    <title>후기 | 화곡 셔츠룸 추천</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #1a1a1a; background-color: #faf7f2; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #2c1810 0%, #4a2c1a 100%); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 20px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 0 20px; max-width: 1200px; margin: 0 auto; }
+        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.5px; color: #fff; text-decoration: none; }
+        .logo span { color: #d4a574; }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.95rem; transition: color 0.3s; position: relative; }
+        .nav-links a:hover { color: #d4a574; }
+        .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: #d4a574; transition: width 0.3s; }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-cta { background: #d4a574; color: #2c1810 !important; padding: 0.6rem 1.5rem; border-radius: 50px; font-weight: 600; transition: all 0.3s; }
+        .nav-cta:hover { background: #c49464; transform: translateY(-2px); }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+        .hamburger span { width: 25px; height: 3px; background: white; border-radius: 3px; transition: all 0.3s; }
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #2c1810; flex-direction: column; padding: 1rem; gap: 1rem; text-align: center; }
+            .nav-links.open { display: flex; }
+            .nav-cta { display: inline-block; margin-top: 0.5rem; }
+        }
+        .hero { background: linear-gradient(135deg, #faf7f2 0%, #f0e6d8 100%); padding: 4rem 0; text-align: center; }
+        .hero h1 { font-size: 2.8rem; font-weight: 700; color: #2c1810; margin-bottom: 1rem; letter-spacing: -1px; }
+        .hero p { font-size: 1.1rem; color: #6b5a4a; max-width: 600px; margin: 0 auto; line-height: 1.8; }
+        .section { padding: 4rem 0; }
+        .section-title { font-size: 2rem; font-weight: 700; color: #2c1810; margin-bottom: 0.5rem; }
+        .section-subtitle { color: #8a7a6a; font-size: 1.05rem; margin-bottom: 3rem; }
+        .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
+        .review-card { background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.05); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid #e8e0d8; }
+        .review-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
+        .review-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+        .review-author { display: flex; align-items: center; gap: 0.8rem; }
+        .review-avatar { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #d4a574, #c49464); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 1.2rem; }
+        .review-name { font-weight: 600; color: #2c1810; }
+        .review-date { font-size: 0.85rem; color: #8a7a6a; }
+        .review-rating { color: #d4a574; font-size: 1.1rem; letter-spacing: 2px; }
+        .review-text { color: #4a3a2a; line-height: 1.8; margin: 1rem 0; }
+        .review-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+        .review-tag { background: #f0e6d8; color: #6b5a4a; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin: 3rem 0; }
+        .stat-card { background: white; border-radius: 16px; padding: 2rem; text-align: center; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #e8e0d8; }
+        .stat-number { font-size: 2.5rem; font-weight: 700; color: #d4a574; }
+        .stat-label { color: #6b5a4a; margin-top: 0.5rem; font-size: 0.95rem; }
+        .cta-section { background: linear-gradient(135deg, #2c1810, #4a2c1a); color: white; padding: 4rem 0; text-align: center; }
+        .cta-section h2 { font-size: 2.2rem; margin-bottom: 1rem; }
+        .cta-section p { color: rgba(255,255,255,0.8); margin-bottom: 2rem; font-size: 1.1rem; }
+        .cta-button { display: inline-block; background: #d4a574; color: #2c1810; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: all 0.3s; }
+        .cta-button:hover { background: #c49464; transform: translateY(-2px); box-shadow: 0 4px 15px rgba(212,165,116,0.4); }
+        footer { background: #1a0f08; color: rgba(255,255,255,0.6); padding: 3rem 0; text-align: center; }
+        footer a { color: #d4a574; text-decoration: none; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .reviews-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">화곡<span>셔츠룸</span></a>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/reviews">후기</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="tel:01062790862" class="nav-cta">010-6279-0862</a></li>
+            </ul>
+            <div class="hamburger" onclick="this.classList.toggle('active'); document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>실제 방문 후기</h1>
+            <p>화곡 셔츠룸을 직접 다녀간 손님들의 생생한 이야기입니다. 깔끔한 공간과 친절한 서비스, 합리적인 가격까지 모두 인증된 후기만 모았어요.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">4.9</div>
+                    <div class="stat-label">평균 만족도</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">누적 방문 후기</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">재방문 의향</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">최신 후기</h2>
+            <p class="section-subtitle">실제로 다녀간 분들이 남겨주신 따뜻한 이야기들 😊</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="review-avatar">김</div>
+                            <div>
+                                <div class="review-name">김*수 님</div>
+                                <div class="review-date">2024.01.15 방문</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-text">
+                        "친구랑 처음 가봤는데 진짜 깔끔하고 좋더라고요! 매니저님들도 너무 친절하시고, 분위기도 편안해서 부담 없이 즐길 수 있었어요. 가격도 다른 데보다 착한 것 같아요. 다음에 또 가고 싶네요!"
+                    </div>
+                    <div class="review-tags">
+                        <span class="review-tag">#깔끔한공간</span>
+                        <span class="review-tag">#친절한서비스</span>
+                        <span class="review-tag">#합리적인가격</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="review-avatar">박</div>
+                            <div>
+                                <div class="review-name">박*호 님</div>
+                                <div class="review-date">2024.01.10 방문</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-text">
+                        "회식 자리로 이용했는데 다들 너무 만족했어요. 분위기도 좋고 매니저님들이 센스 있게 분위기 띄워주셔서 즐거운 시간 보냈습니다. 위치도 화곡역에서 가까워서 접근성도 좋고요!"
+                    </div>
+                    <div class="review-tags">
+                        <span class="review-tag">#회식추천</span>
+                        <span class="review-tag">#센스있는매니저</span>
+                        <span class="review-tag">#접근성좋음</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="review-avatar">이</div>
+                            <div>
+                                <div class="review-name">이*영 님</div>
+                                <div class="review-date">2024.01.05 방문</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-text">
+                        "처음엔 좀 긴장했는데 매니저님들이 먼저 편하게 대해주셔서 금방 편해졌어요. 시설도 엄청 깨끗하고, 음료도 맛있었어요. 가격도 생각보다 부담 없어서 자주 오게 될 것 같아요!"
+                    </div>
+                    <div class="review-tags">
+                        <span class="review-tag">#처음방문</span>
+                        <span class="review-tag">#편안한분위기</span>
+                        <span class="review-tag">#깨끗한시설</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="review-avatar">최</div>
+                            <div>
+                                <div class="review-name">최*준 님</div>
+                                <div class="review-date">2023.12.28 방문</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-text">
+                        "지인 추천으로 갔는데 기대 이상이었어요! 방도 넓고 쾌적하고, 매니저님들 실력도 좋으세요. 특히 서비스 마인드가 정말 좋아서 기분 좋게 시간 보내고 왔습니다. 강추!"
+                    </div>
+                    <div class="review-tags">
+                        <span class="review-tag">#지인추천</span>
+                        <span class="review-tag">#넓은공간</span>
+                        <span class="review-tag">#서비스마인드최고</span>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="review-avatar">정</div>
+                            <div>
+                                <div class="review-name">정*민 님</div>
+                                <div class="review-date">2023.12.20 방문</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-text">
+                        "연말에 친구들이랑 갔는데 완전 대박이었어요! 분위기도 좋고, 매니저님들이 정말 프로페셔널하세요. 다음에 또 오고 싶을 정도로 만족스러웠어요. 화곡 셔츠룸
+</body>
+</html>

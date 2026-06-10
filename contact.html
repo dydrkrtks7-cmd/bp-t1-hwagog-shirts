@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <meta name="description" content="화곡 셔츠룸 문의하기. 전화, 카카오톡, 방문 상담 모두 환영합니다. 깔끔한 공간과 합리적인 가격, 센스 있는 매니저님들이 기다립니다.">
+    <meta name="keywords" content="화곡 셔츠룸 문의, 화곡 셔츠룸 예약, 화곡역 셔츠룸 전화번호, 강서구 셔츠룸 연락처">
+    <link rel="canonical" href="https://dydrkrtks7-cmd.github.io/contact">
+    <meta property="og:title" content="화곡 셔츠룸 문의 | 편하게 연락주세요">
+    <meta property="og:description" content="화곡 셔츠룸 문의. 전화 한 통이면 간편하게 예약 가능합니다. 방문 전 궁금한 점은 언제든 물어봐 주세요.">
+    <meta property="og:url" content="https://dydrkrtks7-cmd.github.io/contact">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://dydrkrtks7-cmd.github.io/images/og-contact.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="화곡 셔츠룸 문의 | 편하게 연락주세요">
+    <meta name="twitter:description" content="화곡 셔츠룸 문의. 전화 한 통이면 간편하게 예약 가능합니다. 방문 전 궁금한 점은 언제든 물어봐 주세요.">
+    <meta name="twitter:image" content="https://dydrkrtks7-cmd.github.io/images/og-contact.jpg">
+    <title>문의 | 화곡 셔츠룸 추천</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #faf8f5;
+            color: #2d2d2d;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #e8e3dd;
+            padding: 16px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(12px);
+            background-color: rgba(255, 255, 255, 0.92);
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #c73e3e;
+            letter-spacing: -0.5px;
+            text-decoration: none;
+        }
+        .logo span {
+            color: #2d2d2d;
+        }
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #4a4a4a;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+            position: relative;
+        }
+        .nav-links a:hover {
+            color: #c73e3e;
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #c73e3e;
+            transition: width 0.25s ease;
+        }
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        .nav-cta {
+            background-color: #c73e3e;
+            color: #ffffff !important;
+            padding: 10px 24px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease, transform 0.15s ease;
+        }
+        .nav-cta:hover {
+            background-color: #a83232;
+            transform: scale(1.03);
+        }
+        .nav-cta::after {
+            display: none !important;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 8px;
+        }
+        .hamburger span {
+            width: 26px;
+            height: 2.5px;
+            background-color: #2d2d2d;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background-color: #ffffff;
+                flex-direction: column;
+                padding: 24px 20px;
+                gap: 18px;
+                border-bottom: 1px solid #e8e3dd;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+                z-index: 999;
+            }
+            .nav-links.open {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .nav-cta {
+                width: 100%;
+                text-align: center;
+                padding: 12px 24px;
+            }
+        }
+        .hero-simple {
+            padding: 60px 0 40px;
+            text-align: center;
+        }
+        .hero-simple h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+        .hero-simple p {
+            font-size: 1.1rem;
+            color: #6b6b6b;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+        .contact-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            padding: 40px 0 80px;
+        }
+        @media (max-width: 768px) {
+            .contact-section {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            .hero-simple h1 {
+                font-size: 1.8rem;
+            }
+        }
+        .contact-card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border: 1px solid #f0ece6;
+        }
+        .contact-card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            letter-spacing: -0.01em;
+        }
+        .contact-card .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f0ece6;
+        }
+        .contact-card .info-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .contact-card .info-icon {
+            font-size: 1.3rem;
+            min-width: 32px;
+            color: #c73e3e;
+        }
+        .contact-card .info-text {
+            font-size: 1rem;
+            color: #3a3a3a;
+            line-height: 1.6;
+        }
+        .contact-card .info-text strong {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #1a1a1a;
+        }
+        .contact-card .info-text .highlight {
+            color: #c73e3e;
+            font-weight: 600;
+        }
+        .contact-card .info-text .sub {
+            font-size: 0.9rem;
+            color: #8a8a8a;
+            margin-top: 4px;
+        }
+        .tel-big {
+            display: inline-block;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #c73e3e;
+            text-decoration: none;
+            margin-top: 8px;
+            letter-spacing: -0.5px;
+            transition: color 0.2s;
+        }
+        .tel-big:hover {
+            color: #a83232;
+        }
+        .btn-tel {
+            display: inline-block;
+            background-color: #c73e3e;
+            color: #ffffff;
+            padding: 14px 36px;
+            border-radius: 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 16px;
+            transition: background-color 0.2s, transform 0.15s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-tel:hover {
+            background-color: #a83232;
+            transform: scale(1.02);
+        }
+        .map-placeholder {
+            background-color: #e8e3dd;
+            border-radius: 12px;
+            height: 240px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6b6b6b;
+            font-size: 0.95rem;
+            margin-top: 20px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23999" width="48" height="48"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: center 40%;
+            background-size: 48px;
+            padding-top: 60px;
+            text-align: center;
+        }
+        .map-placeholder span {
+            background-color: rgba(255,255,255,0.7);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        .hours-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 16px;
+            margin-top: 12px;
+        }
+        .hours-grid .day {
+            font-weight: 500;
+            color: #2d2d2d;
+        }
+        .hours-grid .time {
+            color: #6b6b6b;
+            text-align: right;
+        }
+        .form-card {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border: 1px solid #f0ece6;
+        }
+        .form-card h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .form-card .form-sub {
+            color: #8a8a8a;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            font-size: 0.9rem;
+            color: #3a3a3a;
+            margin-bottom: 6px;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ddd8d0;
+            border-radius: 10px;
+            font-size: 0.95rem;
+            font-family: inherit;
+            background-color: #fcfaf8;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #c73e3e;
+            background-color: #ffffff;
+        }
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .btn-submit {
+            background-color: #c73e3e;
+            color: #ffffff;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.2s;
+        }
+        .btn-submit:hover {
+            background-color: #a83232;
+        }
+        .faq-mini {
+            margin-top: 60px;
+            padding-bottom: 80px;
+        }
+        .faq-mini h2 {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 36px;
+            color: #1a1a1a;
+        }
+        .faq-item {
+            background-color: #ffffff;
+            border: 1px solid #f0ece6;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 12px;
+        }
+        .faq-item h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 6px;
+        }
+        .faq-item p {
+            color: #6b6b6b;
+            font-size: 0.95rem;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #b0b0b0;
+            padding: 40px 0 32px;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 1px solid #2d2d2d;
+        }
+        footer a {
+            color: #d0d0d0;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            .contact-card, .form-card {
+                padding: 28px 20px;
+            }
+            .hours-grid {
+                grid-template-columns: 1fr;
+                text-align: left;
+            }
+            .hours-grid .time {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">셔츠<span>룸</span></a>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/contact">문의</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="tel:010-6279-0862" class="nav-cta">전화 문의</a></li>
+            </ul>
+            <button class="hamburger" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="hero-simple">
+                <h1>편하게 연락주세요</h1>
+                <p>전화 한 통이면 간편하게 예약 가능합니다. 방문 전 궁금한 점은 언제든 물어봐 주세요.</p>
+            </div>
+
+            <div class="contact-section">
+                <div class="contact-card">
+                    <h2>연락처 & 위치</h2>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <strong>전화 예약</strong>
+                            <a href="tel:010-6279-0862" class="tel-big">010-6279-0862</a>
+                            <div class="sub">언제든 전화 주세요. 빠르게 도와드릴게요!</div>
+                        </div>
+                    </div>
+</body>
+</html>
