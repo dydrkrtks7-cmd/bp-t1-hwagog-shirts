@@ -13,4 +13,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://hwagogshirts.com/sitemap.xml
+Sitemap: https://dydrkrtks7-cmd.github.io/sitemap.xml
