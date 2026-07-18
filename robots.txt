@@ -13,4 +13,4 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-Sitemap: https://dydrkrtks7-cmd.github.io/sitemap.xml
+Sitemap: https://hwagok-shirts-guide.maphoshirts.xyz/sitemap.xml
