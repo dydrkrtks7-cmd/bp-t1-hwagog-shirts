@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yeouido-shirts-note.hikari-fiber.store/sitemap.xml
-Sitemap: https://yeouido-shirts-note.hikari-fiber.store/sitemap-pages.xml
+Sitemap: https://hwagok-shirts-guide.maphoshirts.xyz/sitemap.xml
+Sitemap: https://hwagok-shirts-guide.maphoshirts.xyz/sitemap-pages.xml
