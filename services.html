@@ -1,379 +1,377 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-warm-grid">
-    <meta name="description" content="화곡 셔츠룸의 다양한 서비스와 합리적인 가격을 비교해보세요. 기본 코스부터 VIP 프리미엄까지, 당신의 취향에 딱 맞는 셔츠룸을 찾아드립니다.">
-    <meta name="keywords" content="화곡 셔츠룸 서비스, 화곡 셔츠룸 가격, 화곡 셔츠룸 시스템, 셔츠룸 코스, 화곡역 셔츠룸 추천">
-    <link rel="canonical" href="https://hwagok-shirts-guide.maphoshirts.xyz/services.html">
-    <meta property="og:title" content="화곡 셔츠룸 서비스 &amp; 가격 비교 | 합리적인 선택">
-    <meta property="og:description" content="화곡 셔츠룸의 다양한 서비스와 합리적인 가격을 비교해보세요. 기본 코스부터 VIP 프리미엄까지, 당신의 취향에 딱 맞는 셔츠룸을 찾아드립니다.">
-    <meta property="og:url" content="https://hwagok-shirts-guide.maphoshirts.xyz/services.html">
-    <meta property="og:type" content="website">
-    <title>화곡 셔츠룸 서비스 & 가격 비교 | 합리적인 선택</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #faf7f2;
-            color: #2a2a2a;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        header {
-            background-color: #ffffff;
-            border-bottom: 1px solid #e8e0d4;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-        }
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.8rem 0;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
-        .logo {
-            font-size: 1.4rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            color: #2a2a2a;
-            text-decoration: none;
-        }
-        .logo span {
-            color: #c9a87c;
-        }
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            align-items: center;
-        }
-        .nav-links a {
-            text-decoration: none;
-            color: #2a2a2a;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: color 0.2s ease;
-            position: relative;
-        }
-        .nav-links a:hover {
-            color: #c9a87c;
-        }
-        .nav-links a::after {
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: #c9a87c;
-            transition: width 0.3s ease;
-        }
-        .nav-links a:hover::after {
-            width: 100%;
-        }
-        .nav-cta {
-            background-color: #c9a87c;
-            color: #ffffff !important;
-            padding: 0.5rem 1.2rem;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: background-color 0.3s ease !important;
-        }
-        .nav-cta:hover {
-            background-color: #b8956a !important;
-            color: #ffffff !important;
-        }
-        .nav-cta::after {
-            display: none !important;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-        }
-        .hamburger span {
-            width: 25px;
-            height: 2px;
-            background-color: #2a2a2a;
-            transition: all 0.3s ease;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            .nav-links {
-                position: fixed;
-                top: 60px;
-                left: 0;
-                width: 100%;
-                background-color: #ffffff;
-                flex-direction: column;
-                padding: 2rem 1.5rem;
-                gap: 1.5rem;
-                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-                transform: translateY(-120%);
-                transition: transform 0.3s ease;
-                z-index: 999;
-                align-items: flex-start;
-            }
-            .nav-links.open {
-                transform: translateY(0);
-            }
-            .nav-links a {
-                font-size: 1.05rem;
-            }
-            .nav-cta {
-                align-self: stretch;
-                text-align: center;
-                padding: 0.7rem 1.2rem;
-            }
-        }
-        .page-hero {
-            padding: 4rem 0 2rem;
-            text-align: center;
-        }
-        .page-hero h1 {
-            font-size: 2.8rem;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            margin-bottom: 0.8rem;
-            color: #1a1a1a;
-        }
-        .page-hero p {
-            font-size: 1.15rem;
-            color: #555;
-            max-width: 650px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            padding: 2rem 0 3rem;
-        }
-        .service-card {
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 2rem 1.8rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-            border: 1px solid #ece6dc;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .service-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-        }
-        .service-card .icon {
-            font-size: 2.2rem;
-            margin-bottom: 0.8rem;
-        }
-        .service-card h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-        .service-card .price-badge {
-            display: inline-block;
-            background: #f0ebe3;
-            color: #2a2a2a;
-            font-weight: 600;
-            padding: 0.3rem 1rem;
-            border-radius: 30px;
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-        }
-        .service-card p {
-            color: #555;
-            font-size: 0.95rem;
-            margin-bottom: 0.8rem;
-        }
-        .service-card ul {
-            list-style: none;
-            padding: 0;
-        }
-        .service-card ul li {
-            padding: 0.3rem 0;
-            font-size: 0.9rem;
-            color: #444;
-        }
-        .service-card ul li::before {
-            content: '✓ ';
-            color: #c9a87c;
-            font-weight: 600;
-        }
-        .table-section {
-            padding: 2rem 0 4rem;
-        }
-        .table-section h2 {
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 1.5rem;
-        }
-        .table-wrap {
-            overflow-x: auto;
-            border-radius: 16px;
-            border: 1px solid #ece6dc;
-            background: #ffffff;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 600px;
-        }
-        th {
-            background-color: #f5f0e9;
-            padding: 1rem 1.2rem;
-            text-align: left;
-            font-weight: 600;
-            font-size: 0.95rem;
-            border-bottom: 1px solid #e0d8cc;
-        }
-        td {
-            padding: 1rem 1.2rem;
-            border-bottom: 1px solid #ede7df;
-            font-size: 0.95rem;
-        }
-        tr:last-child td {
-            border-bottom: none;
-        }
-        .highlight-row {
-            background-color: #faf6f0;
-        }
-        .highlight-row td {
-            font-weight: 500;
-        }
-        .compare-note {
-            text-align: center;
-            margin-top: 1.2rem;
-            font-size: 0.9rem;
-            color: #777;
-        }
-        .faq-section {
-            padding: 2rem 0 4rem;
-        }
-        .faq-section h2 {
-            font-size: 2rem;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .faq-item {
-            border-bottom: 1px solid #e8e0d4;
-            padding: 1.2rem 0;
-        }
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        .faq-question {
-            font-weight: 600;
-            font-size: 1.05rem;
-            margin-bottom: 0.4rem;
-            color: #1a1a1a;
-        }
-        .faq-answer {
-            color: #555;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-        .cta-section {
-            background-color: #ffffff;
-            border: 1px solid #ece6dc;
-            border-radius: 20px;
-            padding: 3rem 2rem;
-            text-align: center;
-            margin: 2rem 0 4rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.02);
-        }
-        .cta-section h2 {
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-        }
-        .cta-section p {
-            color: #555;
-            max-width: 500px;
-            margin: 0 auto 1.5rem;
-        }
-        .cta-button {
-            display: inline-block;
-            background-color: #c9a87c;
-            color: #ffffff;
-            padding: 0.9rem 2.5rem;
-            border-radius: 40px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.05rem;
-            transition: background-color 0.3s ease;
-        }
-        .cta-button:hover {
-            background-color: #b8956a;
-        }
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            color: #999;
-            font-size: 0.85rem;
-            border-top: 1px solid #ece6dc;
-            margin-top: 2rem;
-        }
-        @media (max-width: 768px) {
-            .page-hero h1 {
-                font-size: 2rem;
-            }
-            .page-hero p {
-                font-size: 1rem;
-            }
-            .service-card {
-                padding: 1.5rem;
-            }
-            .cta-section h2 {
-                font-size: 1.4rem;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="화곡 셔츠룸의 다양한 서비스와 합리적인 가격을 비교해보세요. 기본 코스부터 VIP 프리미엄까지, 당신의 취향에 딱 맞는 셔츠룸을 찾아드립니다.">
+ <meta name="keywords" content="화곡 셔츠룸 서비스, 화곡 셔츠룸 가격, 화곡 셔츠룸 시스템, 셔츠룸 코스, 화곡역 셔츠룸 추천">
+ <link rel="canonical" href="https://hwagok-shirts-guide.maphoshirts.xyz/services.html">
+ <meta property="og:title" content="화곡 셔츠룸 서비스 &amp; 가격 비교 | 합리적인 선택">
+ <meta property="og:description" content="화곡 셔츠룸의 다양한 서비스와 합리적인 가격을 비교해보세요. 기본 코스부터 VIP 프리미엄까지, 당신의 취향에 딱 맞는 셔츠룸을 찾아드립니다.">
+ <meta property="og:url" content="https://hwagok-shirts-guide.maphoshirts.xyz/services.html">
+ <meta property="og:type" content="website">
+ <title>화곡 셔츠룸 서비스 & 가격 비교 | 합리적인 선택</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ font-size: 16px;
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ background-color: #faf7f2;
+ color: #2a2a2a;
+ line-height: 1.6;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 1.5rem;
+ }
+ header {
+ background-color: #ffffff;
+ border-bottom: 1px solid #e8e0d4;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+ }
+ nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0.8rem 0;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ }
+ .logo {
+ font-size: 1.4rem;
+ font-weight: 700;
+ letter-spacing: -0.02em;
+ color: #2a2a2a;
+ text-decoration: none;
+ }
+ .logo span {
+ color: #c9a87c;
+ }
+ .nav-links {
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+ }
+ .nav-links a {
+ text-decoration: none;
+ color: #2a2a2a;
+ font-size: 0.95rem;
+ font-weight: 500;
+ transition: color 0.2s ease;
+ position: relative;
+ }
+ .nav-links a:hover {
+ color: #c9a87c;
+ }
+ .nav-links a::after {
+ content: '';
+ position: absolute;
+ bottom: -4px;
+ left: 0;
+ width: 0;
+ height: 2px;
+ background-color: #c9a87c;
+ transition: width 0.3s ease;
+ }
+ .nav-links a:hover::after {
+ width: 100%;
+ }
+ .nav-cta {
+ background-color: #c9a87c;
+ color: #ffffff !important;
+ padding: 0.5rem 1.2rem;
+ border-radius: 30px;
+ font-weight: 600;
+ transition: background-color 0.3s ease !important;
+ }
+ .nav-cta:hover {
+ background-color: #b8956a !important;
+ color: #ffffff !important;
+ }
+ .nav-cta::after {
+ display: none !important;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ }
+ .hamburger span {
+ width: 25px;
+ height: 2px;
+ background-color: #2a2a2a;
+ transition: all 0.3s ease;
+ }
+ @media (max-width: 768px) {
+ .hamburger {
+ display: flex;
+ }
+ .nav-links {
+ position: fixed;
+ top: 60px;
+ left: 0;
+ width: 100%;
+ background-color: #ffffff;
+ flex-direction: column;
+ padding: 2rem 1.5rem;
+ gap: 1.5rem;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+ transform: translateY(-120%);
+ transition: transform 0.3s ease;
+ z-index: 999;
+ align-items: flex-start;
+ }
+ .nav-links.open {
+ transform: translateY(0);
+ }
+ .nav-links a {
+ font-size: 1.05rem;
+ }
+ .nav-cta {
+ align-self: stretch;
+ text-align: center;
+ padding: 0.7rem 1.2rem;
+ }
+ }
+ .page-hero {
+ padding: 4rem 0 2rem;
+ text-align: center;
+ }
+ .page-hero h1 {
+ font-size: 2.8rem;
+ font-weight: 700;
+ letter-spacing: -0.03em;
+ margin-bottom: 0.8rem;
+ color: #1a1a1a;
+ }
+ .page-hero p {
+ font-size: 1.15rem;
+ color: #555;
+ max-width: 650px;
+ margin: 0 auto;
+ line-height: 1.7;
+ }
+ .services-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: 2rem;
+ padding: 2rem 0 3rem;
+ }
+ .service-card {
+ background: #ffffff;
+ border-radius: 16px;
+ padding: 2rem 1.8rem;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+ border: 1px solid #ece6dc;
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+ }
+ .service-card:hover {
+ transform: translateY(-4px);
+ box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+ }
+ .service-card .icon {
+ font-size: 2.2rem;
+ margin-bottom: 0.8rem;
+ }
+ .service-card h3 {
+ font-size: 1.3rem;
+ font-weight: 600;
+ margin-bottom: 0.5rem;
+ }
+ .service-card .price-badge {
+ display: inline-block;
+ background: #f0ebe3;
+ color: #2a2a2a;
+ font-weight: 600;
+ padding: 0.3rem 1rem;
+ border-radius: 30px;
+ font-size: 0.9rem;
+ margin-bottom: 1rem;
+ }
+ .service-card p {
+ color: #555;
+ font-size: 0.95rem;
+ margin-bottom: 0.8rem;
+ }
+ .service-card ul {
+ list-style: none;
+ padding: 0;
+ }
+ .service-card ul li {
+ padding: 0.3rem 0;
+ font-size: 0.9rem;
+ color: #444;
+ }
+ .service-card ul li::before {
+ content: '✓ ';
+ color: #c9a87c;
+ font-weight: 600;
+ }
+ .table-section {
+ padding: 2rem 0 4rem;
+ }
+ .table-section h2 {
+ font-size: 2rem;
+ font-weight: 600;
+ text-align: center;
+ margin-bottom: 1.5rem;
+ }
+ .table-wrap {
+ overflow-x: auto;
+ border-radius: 16px;
+ border: 1px solid #ece6dc;
+ background: #ffffff;
+ }
+ table {
+ width: 100%;
+ border-collapse: collapse;
+ min-width: 600px;
+ }
+ th {
+ background-color: #f5f0e9;
+ padding: 1rem 1.2rem;
+ text-align: left;
+ font-weight: 600;
+ font-size: 0.95rem;
+ border-bottom: 1px solid #e0d8cc;
+ }
+ td {
+ padding: 1rem 1.2rem;
+ border-bottom: 1px solid #ede7df;
+ font-size: 0.95rem;
+ }
+ tr:last-child td {
+ border-bottom: none;
+ }
+ .highlight-row {
+ background-color: #faf6f0;
+ }
+ .highlight-row td {
+ font-weight: 500;
+ }
+ .compare-note {
+ text-align: center;
+ margin-top: 1.2rem;
+ font-size: 0.9rem;
+ color: #777;
+ }
+ .faq-section {
+ padding: 2rem 0 4rem;
+ }
+ .faq-section h2 {
+ font-size: 2rem;
+ font-weight: 600;
+ text-align: center;
+ margin-bottom: 2rem;
+ }
+ .faq-item {
+ border-bottom: 1px solid #e8e0d4;
+ padding: 1.2rem 0;
+ }
+ .faq-item:last-child {
+ border-bottom: none;
+ }
+ .faq-question {
+ font-weight: 600;
+ font-size: 1.05rem;
+ margin-bottom: 0.4rem;
+ color: #1a1a1a;
+ }
+ .faq-answer {
+ color: #555;
+ font-size: 0.95rem;
+ line-height: 1.6;
+ }
+ .cta-section {
+ background-color: #ffffff;
+ border: 1px solid #ece6dc;
+ border-radius: 20px;
+ padding: 3rem 2rem;
+ text-align: center;
+ margin: 2rem 0 4rem;
+ box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+ }
+ .cta-section h2 {
+ font-size: 1.8rem;
+ font-weight: 600;
+ margin-bottom: 0.8rem;
+ }
+ .cta-section p {
+ color: #555;
+ max-width: 500px;
+ margin: 0 auto 1.5rem;
+ }
+ .cta-button {
+ display: inline-block;
+ background-color: #c9a87c;
+ color: #ffffff;
+ padding: 0.9rem 2.5rem;
+ border-radius: 40px;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 1.05rem;
+ transition: background-color 0.3s ease;
+ }
+ .cta-button:hover {
+ background-color: #b8956a;
+ }
+ footer {
+ text-align: center;
+ padding: 2rem 0;
+ color: #999;
+ font-size: 0.85rem;
+ border-top: 1px solid #ece6dc;
+ margin-top: 2rem;
+ }
+ @media (max-width: 768px) {
+ .page-hero h1 {
+ font-size: 2rem;
+ }
+ .page-hero p {
+ font-size: 1rem;
+ }
+ .service-card {
+ padding: 1.5rem;
+ }
+ .cta-section h2 {
+ font-size: 1.4rem;
+ }
+ }
+ </style>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/" class="logo">화곡<span>셔츠룸</span></a>
-            <div class="hamburger" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="nav-links" id="navLinks">
-                <a href="/">홈</a>
-                <a href="/services">서비스</a>
-                <a href="/about">소개</a>
-                <a href="/contact" class="nav-cta">문의하기</a>
-            </div>
-        </nav>
-    </header>
+ <header>
+ <nav>
+ <a href="/" class="logo">화곡<span>셔츠룸</span></a>
+ <div class="hamburger" onclick="toggleMenu()">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+ <div class="nav-links" id="navLinks">
+ <a href="/">홈</a>
+ <a href="/services">서비스</a>
+ <a href="/about">소개</a>
+ <a href="/contact" class="nav-cta">문의하기</a>
+ </div>
+ </nav>
+ </header>
 
 <main>
 <section class="page-hero container">
