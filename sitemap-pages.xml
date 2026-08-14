@@ -141,6 +141,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://hwagok-shirts-guide.maphoshirts.xyz/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hwagok-shirts-guide.maphoshirts.xyz/posts-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://hwagok-shirts-guide.maphoshirts.xyz/feed.xml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
